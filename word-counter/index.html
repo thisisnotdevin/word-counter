@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1 class="head">Word Counter</h1>
+    <div class="textbox">
+        <textarea  id="text" class="text-box" onkeyup="wordCounter()" onpaste="wordCounter()" rows="4" placeholder=" Enter your words" cols="50"></textarea>
+    </div>
+
+    <div class="counter">
+        Word Count is <span id="wordCount">0</span>
+    </div>
+   
+    <div class="button">
+        <input class="btn1" id="elem" type="button" value="Don't click me">
+            <script>
+            elem.onclick = function() {
+                alert('this does nothing at all');
+            };
+            </script>
+    </div>
+    
+</body>
+</html>
