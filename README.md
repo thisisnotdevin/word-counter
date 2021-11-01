@@ -1,5 +1,5 @@
 # WordCounter
-This word counter allows you to type text in a text box and the counter will show how many words are in there, another way is that you can paste a long paragraph and it will show how many words in that paragraph. It also includes a easter egg button.
+This simple word counter allows you to type text in a text box and the counter will show how many words are in there, another way is that you can paste a long paragraph and it will show how many words in that paragraph. It also includes a easter egg button.
 
 ## Installation
 * To begin, make a pull request on this project and open it, in my case I used [Visual Studio Code](https://code.visualstudio.com/download) 
