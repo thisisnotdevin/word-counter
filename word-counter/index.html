@@ -12,18 +12,18 @@
 <body>
     <h1 class="head">Word Counter</h1>
     <div class="textbox">
-        <textarea  id="text" class="text-box" onkeyup="wordCounter()" onpaste="wordCounter()" rows="4" placeholder=" Enter your words" cols="50"></textarea>
+        <textarea  id="text" class="text-box" onkeyup="wordCounter()" onpaste="wordCounter()" rows="4" placeholder=" Start typing, or paste your text" cols="50"></textarea>
     </div>
 
-    <div class="counter">
-        Word Count is <span id="wordCount">0</span>
-    </div>
+    <ul class="wordText">
+        Words <span class="wordNumber" id="wordCount">0</span>
+    </ul>
    
     <div class="button">
         <input class="btn1" id="elem" type="button" value="Don't click me">
             <script>
             elem.onclick = function() {
-                alert('this does nothing at all');
+                alert('this button does nothing');
             };
             </script>
     </div>
